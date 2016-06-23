@@ -8,7 +8,17 @@ class HamroSpider(BaseSpider):
     name = "hamrospider"
     allowed_domains = ["hamrobazaar.com"]
     start_urls = [
+            "http://hamrobazaar.com/c1-automobiles",
+            "http://hamrobazaar.com/c2-mobile-and-accessories",
+            "http://hamrobazaar.com/c260-business-and-industrial",
             "http://hamrobazaar.com/c3-computer-and-peripherals",
+            "http://hamrobazaar.com/c4-consumer-electronics",
+            "http://hamrobazaar.com/c5-toys-and-video-games",
+            "http://hamrobazaar.com/c6-apparels-and-accessories",
+            "http://hamrobazaar.com/c7-home-furnishing-and-appliances",
+            "http://hamrobazaar.com/c8-music-and-sports",
+            "http://hamrobazaar.com/c9-beauty-and-health",
+            "http://hamrobazaar.com/c10-books-and-learning",
         ]
 
     # parse the items in the category
