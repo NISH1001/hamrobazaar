@@ -11,5 +11,4 @@ import scrapy
 class HamrobazaarItem(scrapy.Item):
     # define the fields for your item here like:
     phone = scrapy.Field()
-    email = scrapy.Field()
     #address = scrapy.Field()
